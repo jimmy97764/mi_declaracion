@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por aceptar ser mi novia</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f8bbd0; /* Fondo rosado */
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-image: url('imagenes/fondo-agradecimiento.jpg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #d81b60;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        audio {
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        /* Ajustes para pantallas pequeñas */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            button {
+                padding: 12px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Gracias por aceptar ser mi novia! 💖</h1>
+    <p>Estoy muy feliz de que aceptes. Estoy emocionado de comenzar esta hermosa relación contigo. 😘</p>
+
+    <!-- Imagen de agradecimiento -->
+    <img src="img/subi.webp" alt="Imagen de agradecimiento">
+
+    <!-- Enlace para regresar a la página principal -->
+    <a href="index.html">
+        <button>Volver a la página principal</button>
+    </a>
+
+    <!-- Reproductor de audio -->
+    <audio id="audio" controls>
+        <source src="audio/agradecimiento.mp3" type="audio/mp3">
+        Tu navegador no soporta el formato de audio.
+    </audio>
+</body>
+</html>
+
